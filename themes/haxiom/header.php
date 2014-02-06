@@ -20,7 +20,7 @@
 
 		<?php // icons & favicons (for more: http://www.jonathantneal.com/blog/understand-the-favicon/) ?>
 		<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/library/images/apple-icon-touch.png">
-		<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon.png">
+		<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
 		<!--[if IE]>
 			<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
 		<![endif]-->
@@ -47,7 +47,7 @@
 
 				<div id="inner-header" class="wrap clearfix">
 
-					<div class="logo"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php get_template_directory_uri() . '/custom/img/Haxiom-Logo.png'; ?></a></div>
+					<div class="header-logo"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php get_template_directory_uri() . '/custom/img/Haxiom-Logo.png'; ?></a></div>
 
 					<?php // if you'd like to use the site description you can un-comment it below ?>
 					<?php // bloginfo('description'); ?>
