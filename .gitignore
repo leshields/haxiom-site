@@ -1,0 +1,6 @@
+.DS_Store
+themes/*
+plugins/*
+
+!themes/haxiom
+!plugins/haxiom-cpt.php
